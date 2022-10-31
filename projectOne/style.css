@@ -1,0 +1,521 @@
+/* container ( full page )*/
+.cont{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* navbar */
+.nav{
+    background-color:#3A5BA0 ;
+    color: white; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.nav-link:hover{
+    color: gray;
+}
+.name{
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color:#3A5BA0 ;
+  color: white;
+
+}
+.nav-item{
+  margin-left: 5%;
+}
+.navbar-brand{
+margin-left: 2%;
+}
+
+/* details /summary  */
+.per{
+display: flex;
+justify-content: space-around;
+height: 600px;
+background-color:#3A5BA0 ;
+
+}
+/* personal picture */
+.pic{
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* personal information */
+.det{
+ width: 60%;
+ color: white;
+font-size: 20px;
+padding-top: 15%;
+text-align: center;
+}
+/* download button */
+
+.det1{
+  font-size: 20px; 
+}
+/* middle div */
+.mid{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* page sections */
+.sections{
+  height: 30px;
+}
+/* title sections */
+.titleS{
+margin-top : 5px;
+margin-left: 5%;
+font-size: 25px;
+text-align: center;
+
+}
+/* middle left */
+.midleft{
+height: auto;
+width: 100%;
+display: flex;
+flex-direction: column;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+}
+.educations{
+height: auto;
+width: 100%;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+}
+.ajloun-det{
+  margin-left: 5%;
+  font-size: 20px;
+  width: 65%;
+}
+
+.ajloun{
+  display: flex;
+  flex-direction: row;
+}
+.ajlounphoto{
+  height: 300px;
+  width: 350px;
+  margin-bottom: 15px;
+  border: 1px solid;
+
+}
+.experence{
+height: auto;
+width: 100%;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+}
+.exp-det{
+  margin-left: 5%;
+  font-size: 20px;
+  width: 90%;
+}
+.courses{
+height: auto;
+width: 100%;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+}
+.coursename{
+  margin-left: 5%;
+  font-size: 25px;
+  width: 65%;
+  
+}
+.course-det{
+  display: flex;
+  flex-direction: row;
+}
+.coursephoto{
+height: 300px;
+width: 350px;
+}
+/* middle right */
+.midright{
+height: auto;
+width: 100%;
+display: flex;
+flex-direction:row;
+border-style: solid;
+border-color: gray;
+border-width: 1px;
+}
+.soft-skills{
+height: auto;
+width: 100%;
+border-style: solid;
+border-color: rgb(223, 212, 212);
+border-width: 1px;
+
+}
+.skills-around{
+display: flex;
+justify-content:space-between;
+
+
+}
+.borskills{
+ 
+  width: 90%;
+  height: 70%;
+  margin-left:5% ;
+  border: 2px dotted rgb(180, 177, 177);
+}
+.tech-skills{
+height: auto;
+width: 100%;
+border-style: solid;
+border-color: rgb(223, 212, 212);
+border-width: 1px;
+}
+.li{
+  margin-top: 15px;
+  margin-left: 5%;
+  width: 33%;
+}
+.lang{
+  height: auto;
+  width: 100%;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  }
+  #langname{
+    margin-left: -1%;
+  }
+  .langbox{
+    height: 250px;
+    width: 20%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    border: 10px solid;
+    border-color:#3A5BA0 ;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+/* reference person */
+.reference{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+}
+.reference-title{
+  margin-left: 46%;
+  font-size: 25px;
+  }
+.refer{
+  display: flex;
+  flex-direction: row;
+  }
+  .refer1{
+  height: 300px;
+  width: 20%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 10%;
+  text-align: center;
+  font-size: 18px;
+  }
+  .referphoto{
+    width: 100%;
+    height: 60%;
+    border-radius: 11%;
+  }
+/* reference liks */
+
+.footer{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color:#3A5BA0  ;
+  margin-top : 10px;
+
+ }
+
+.link-1{
+ display: flex;
+ flex-direction: row; 
+ width: 25%;
+ margin-left: 5%  ;
+ color: white;
+ text-decoration: none;
+}
+.hrefname{
+  margin-top: 15px;
+  margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.logo{
+width:50px;
+height:50px;
+margin-left :10%;
+border-radius: 50%;
+}
+.copywrite{
+  background-color:#3A5BA0 ;
+color: white;
+text-align: center;
+font-size: 15px;
+}
+
+/* phone */
+@media only screen and (min-device-width: 0px) and (max-device-width:480px){
+  .cont{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* navbar */
+.nav-link{
+  font-size: 12px;
+}
+
+.per{
+display: flex;
+flex-direction: column;
+height: auto;
+}
+.det{
+  font-size: 15px;
+  margin-left: 50px;
+  
+  }
+  .det1{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+  }
+  .pic{
+    width: 60%;
+    margin-left: 50px;
+  }
+
+.refer{
+  display: flex;
+  flex-direction: column;
+}
+.refer1{
+  width: 70%;
+  height: 50%;
+  margin-left: 15%;
+  font-size: 15px;
+}
+.mid{
+  display: flex;
+  flex-direction: column;
+}
+.midleft{
+  width: 100%;
+}
+.ajloun{
+flex-direction: column;
+}
+.ajloun-det{
+width: 90%;
+}
+.ajlounphoto{
+height: 40%;
+width: 80%;
+margin-bottom: 15px;
+margin-left: 30px;
+}
+.course-det{
+  display: flex;
+  flex-direction: column;
+}
+.coursename{
+width: 90%;
+}
+.coursephoto{
+  margin-bottom: 3px;
+  width: 100%;
+  height: 50%;
+}
+
+.courses{
+  width: 100%;
+}
+
+.midright{
+  width: 100%;
+}
+.skills-around{
+  width: 85%;
+  flex-direction: column;
+}
+.borskills{
+  height: 85%;
+  width: 90%;
+  border: 2px dotted rgb(180, 177, 177);
+}
+.li{
+  width: 100%;
+}
+.hrefname{
+  display: none;
+}
+
+.link-1{
+  width: 18%;
+}
+.logo{
+width:25px;
+height:25px;
+margin-left :30%;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+.langbox{
+  width: 70%;
+  margin-left: 15%;
+}
+}
+/* tablet */
+@media all and (min-device-width:481px ) and (max-device-width:768px ) {
+ 
+
+  .pic{
+    width: 50%;
+  
+  }
+
+  .ajloun{
+    display: flex;
+    flex-direction: column;
+  }
+  .ajlounphoto{
+    margin-left: 200px;
+    margin-bottom: 15px;
+  
+  }
+  .ajloun-det{
+    width: 90%;
+  }
+  .coursephoto{
+   margin-left: 100px;
+    }
+  .course-det{
+    display: flex;
+    flex-direction: column;
+  }
+  .coursename{
+   
+    width: 90%;
+    
+  }
+  .borskills{
+ 
+    height: 85%;
+    margin-left:5% ;
+    border: 2px dotted rgb(180, 177, 177);
+  }
+
+  .skills-around{
+    display: flex;
+flex-direction: column;    
+    
+    } 
+  .lang{
+    height: auto;
+    width: 100%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    }
+    #langname{
+      margin-left: -1%;
+    }
+    .langbox{
+      height: 250px;
+      width: 60%;
+      margin-left: 20%;
+      margin-bottom: 3%;
+    
+      
+    }
+        .refer{
+          display: flex;
+          flex-direction: column;
+          }
+          .refer1{
+            width: 50%;
+            margin-left: 25%;
+            height: 28%;
+            }
+      
+             .footer{
+
+              width: 768px;
+              display: grid;
+              grid-template-columns: auto auto ;
+            
+             }
+             .logo{
+              width:25px;
+              height:25px;
+              margin-left :20%;
+              margin-top: 10px;
+              margin-bottom: 10px;
+
+              }
+              .hrefname{
+                margin-top: 15px;
+                width: 200px;
+                font-size: 10px;
+
+              }
+              .reference{
+                width: 768px;
+              }
+              .copywrite{
+              width:768px ;
+              }      
+              .link-1{
+                width: 40%;
+              
+               }
+}
